@@ -1,0 +1,11 @@
+customer_id,region,plan_type,tenure_months,monthly_charges,total_charges,calls_dropped,support_calls,is_prepaid,complaints_last_30_days,call_drop_ratio,is_ported_out_last_year,days_since_last_recharge,last_call_time,first_recharge_date,churn
+C001,North,Basic,12,399,4788,3,1,Yes,1,0.08,No,12,2025-01-18 21:15:42,2024-12-20,No
+C002,West,Premium,4,899,3596,1,0,No,2,0.15,Yes,25,2025-01-17 18:22:30,2025-01-02,Yes
+C003,South,Standard,22,599,13178,0,2,No,0,0.05,No,40,2025-01-16 20:10:45,2024-11-25,No
+C004,East,Basic,8,349,2792,4,3,Yes,4,0.22,No,60,2025-01-15 09:12:15,2024-12-10,Yes
+C005,Central,Premium,15,999,14985,2,1,No,3,0.10,Yes,30,2025-01-14 11:45:22,2024-12-30,No
+C006,North,Standard,6,549,3294,0,0,Yes,1,0.07,No,5,2025-01-18 06:33:55,2025-01-12,No
+C007,West,Basic,3,299,897,5,4,Yes,5,0.25,Yes,75,2025-01-13 08:18:20,2024-11-01,Yes
+C008,South,Premium,18,899,16182,1,1,No,1,0.11,No,45,2025-01-19 10:11:59,2024-12-10,No
+C009,East,Standard,27,649,17523,0,2,No,0,0.05,No,15,2025-01-17 23:09:31,2025-01-01,No
+C010,Central,Basic,11,399,4389,3,1,Yes,2,0.14,No,20,2025-01-18 17:45:50,2024-12-25,Yes

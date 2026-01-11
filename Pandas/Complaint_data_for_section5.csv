@@ -1,0 +1,15 @@
+﻿complaintid,userid,issue,days_since_last_recharge
+1,101,Call Drop Out,20
+2,102,No Network,30
+3,103,Billing Error,10
+4,104,Call Drop Out,15
+5,105,No Network,60
+6,106,Billing Error,50
+7,107,Billing Error,45
+8,108,No Network,20
+9,109,Call Drop Out,30
+10,110,No Network,10
+11,111,Billing Error,15
+12,112,No Network,60
+13,113,Billing Error,50
+14,114,Billing Error,45

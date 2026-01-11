@@ -1,0 +1,79 @@
+Month,CustomerID,MonthlyCharges,Contract,TenureMonths,TotalCharges,Complaints,CallDropRate,DataUsageGB,Churn,TotalChurnCount,Region
+Jan,C001,844,Month-to-month,14,13154,0,3.4,74,No,0,West
+Jan,C002,458,Two year,3,1794,0,4,73,No,0,North
+Jan,C003,339,One year,1,684,0,1.8,,No,0,
+Jan,C004,1148,One year,5,6835,1,1.9,65,No,0,East
+Jan,C005,1174,Month-to-month,26,32806,0,2.5,77,Yes,1,
+Jan,C006,1030,Month-to-month,14,15088,1,3.9,103,No,0,East
+Jan,C007,574,Month-to-month,27,16305,1,2.7,48,No,0,West
+Feb,C008,378,Two year,9,3695,1,2.4,,No,0,
+Feb,C009,907,One year,15,14442,0,1.2,25,No,0,East
+Feb,C010,703,One year,15,10941,0,1,164,No,0,
+Feb,C011,416,Month-to-month,26,10714,0,2,,No,0,South
+Feb,C012,746,Two year,13,10473,0,3,57,No,0,
+Feb,C013,331,Two year,32,10905,2,3,31,Yes,1,West
+Feb,C014,1106,Month-to-month,32,37584,0,2.9,107,No,0,West
+Feb,C015,547,Month-to-month,4,,0,1,146,No,0,North
+Mar,C016,885,Month-to-month,30,27085,0,2.2,98,No,0,South
+Mar,C017,579,Month-to-month,23,13489,0,2,122,No,0,East
+Mar,C018,766,Month-to-month,15,11963,1,2,37,Yes,1,East
+Mar,C019,787,Month-to-month,29,23889,0,2.6,65,No,0,East
+Mar,C020,476,Month-to-month,13,6480,1,2.5,64,Yes,1,West
+Mar,C021,1156,One year,32,37047,0,1.9,104,No,0,North
+Mar,C022,1003,Month-to-month,7,,1,3.4,119,No,0,East
+Mar,C023,1150,Month-to-month,22,25714,1,4.8,82,No,0,South
+Mar,C024,1103,Month-to-month,28,32661,0,2,38,No,0,South
+Mar,C025,838,Month-to-month,2,2550,1,2.3,69,Yes,1,West
+Mar,C026,1131,One year,6,7670,1,4.1,74,No,0,West
+Mar,C027,393,Month-to-month,28,11552,0,1.1,145,No,0,West
+Apr,C028,471,Month-to-month,28,13499,0,0.1,97,No,0,North
+Apr,C029,337,One year,20,7476,0,0.9,131,No,0,South
+Apr,C030,601,Month-to-month,30,18227,1,1,105,No,0,East
+Apr,C031,829,,15,,0,3.8,82,Yes,1,East
+Apr,C032,435,Two year,4,2230,0,1.5,48,Yes,1,East
+Apr,C033,339,One year,2,1023,0,2.5,107,Yes,1,West
+Apr,C034,1124,One year,6,7959,1,1.9,67,No,0,North
+Apr,C035,1134,Month-to-month,27,33940,1,4,49,No,0,East
+Apr,C036,1004,,15,16092,0,2.1,97,No,0,South
+Apr,C037,554,Month-to-month,28,16858,1,2.4,33,No,0,South
+May,C038,378,Two year,10,4073,1,2.5,125,No,0,West
+May,C039,899,One year,16,15341,0,1.3,49,No,0,West
+May,C040,665,One year,16,11606,0,0.1,119,No,0,West
+May,C041,393,Month-to-month,27,,0,1.4,109,No,0,North
+May,C042,735,Two year,14,11208,0,1.3,68,No,0,South
+May,C043,323,Two year,33,11228,0,2.8,30,No,0,East
+June,C044,1094,Month-to-month,33,38677,0,2.6,131,Yes,1,East
+June,C045,514,Month-to-month,5,3143,1,3.9,101,No,0,East
+June,C046,865,Month-to-month,31,27950,0,2.2,97,No,0,West
+June,C047,561,Month-to-month,24,14050,0,1.7,110,No,0,North
+June,C048,752,Month-to-month,16,12715,0,2.6,43,No,0,East
+June,C049,785,Month-to-month,30,24674,0,1.5,96,No,0,South
+June,C050,455,Month-to-month,14,6936,0,2.8,44,No,0,South
+June,C051,1155,One year,33,38202,3,3.5,153,No,0,West
+July,C052,979,Month-to-month,8,8793,0,3,114,No,0,West
+July,C053,1120,Month-to-month,23,26834,1,1.7,72,No,0,West
+July,C054,1081,Month-to-month,29,33741,0,3.1,41,No,0,North
+July,C055,814,Month-to-month,3,3363,0,1.3,58,No,0,South
+July,C056,1104,One year,7,8774,0,1.6,70,No,0,East
+July,C057,360,Month-to-month,29,11912,1,3.6,97,Yes,1,East
+July,C058,465,Month-to-month,29,13963,0,0.3,106,No,0,East
+July,C059,338,One year,21,7814,0,1.8,147,No,0,West
+Aug,C060,582,Month-to-month,31,18808,0,1.9,93,Yes,1,North
+Aug,C061,864,Month-to-month,16,14847,0,3.6,55,Yes,1,East
+Aug,C062,471,Two year,5,2701,1,2.5,68,No,0,South
+Aug,C063,356,One year,3,1378,1,2.8,100,No,0,South
+Aug,C064,1187,One year,7,9146,0,2.6,61,No,0,West
+Aug,C065,1198,Month-to-month,28,35138,0,0.5,42,No,0,West
+Aug,C066,1056,Month-to-month,16,17148,1,1.6,83,No,0,West
+Aug,C067,597,Month-to-month,29,17455,0,0.7,54,No,0,North
+Sep,C068,369,Two year,11,4442,0,2.2,63,No,0,South
+Sep,C069,944,One year,17,16285,3,1.7,34,No,0,East
+Sep,C070,722,One year,17,12328,2,2.3,154,No,0,East
+Sep,C071,439,Month-to-month,28,11547,1,2.1,154,No,0,East
+Sep,C072,771,Two year,15,11912,1,1.5,55,No,0,West
+Sep,C073,339,Two year,34,13963,0,0.4,24,No,0,North
+Oct,C074,1157,Month-to-month,34,7814,0,2.3,129,No,0,East
+Oct,C075,549,Month-to-month,6,18808,0,3.3,112,No,0,South
+Oct,C076,918,Month-to-month,32,14847,0,3.5,101,No,0,South
+Oct,C077,592,Month-to-month,25,14641,0,1.3,106,Yes,1,West
+Oct,C078,788,Month-to-month,17,13503,1,3.4,28,No,0,West
