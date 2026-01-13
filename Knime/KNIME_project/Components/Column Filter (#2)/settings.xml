@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="31"/>
+                <entry key="0" type="xstring" value="data_usage_mb"/>
+                <entry key="1" type="xstring" value="call_duration_min"/>
+                <entry key="2" type="xstring" value="plan_type"/>
+                <entry key="3" type="xstring" value="dropped_calls"/>
+                <entry key="4" type="xstring" value="app_frequency"/>
+                <entry key="5" type="xstring" value="app_category"/>
+                <entry key="6" type="xstring" value="device_type"/>
+                <entry key="7" type="xstring" value="region_x"/>
+                <entry key="8" type="xstring" value="age"/>
+                <entry key="9" type="xstring" value="gender"/>
+                <entry key="10" type="xstring" value="arpu"/>
+                <entry key="11" type="xstring" value="tenure_months"/>
+                <entry key="12" type="xstring" value="amount"/>
+                <entry key="13" type="xstring" value="payment_mode"/>
+                <entry key="14" type="xstring" value="recharge_channel"/>
+                <entry key="15" type="xstring" value="successful"/>
+                <entry key="16" type="xstring" value="price"/>
+                <entry key="17" type="xstring" value="validity_days"/>
+                <entry key="18" type="xstring" value="data_limit_gb"/>
+                <entry key="19" type="xstring" value="sms_limit"/>
+                <entry key="20" type="xstring" value="plan_category"/>
+                <entry key="21" type="xstring" value="promo_offer"/>
+                <entry key="22" type="xstring" value="latitude"/>
+                <entry key="23" type="xstring" value="longitude"/>
+                <entry key="24" type="xstring" value="network_type"/>
+                <entry key="25" type="xstring" value="signal_strength_dbm"/>
+                <entry key="26" type="xstring" value="outage_flag"/>
+                <entry key="27" type="xstring" value="monthly_data_gb"/>
+                <entry key="28" type="xstring" value="monthly_calls_min"/>
+                <entry key="29" type="xstring" value="usage_category"/>
+                <entry key="30" type="xstring" value="complaint_flag"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="20"/>
+                <entry key="0" type="xstring" value="session_id"/>
+                <entry key="1" type="xstring" value="user_id"/>
+                <entry key="2" type="xstring" value="call_timestamp"/>
+                <entry key="3" type="xstring" value="complaint"/>
+                <entry key="4" type="xstring" value="tower_id"/>
+                <entry key="5" type="xstring" value="name"/>
+                <entry key="6" type="xstring" value="join_date"/>
+                <entry key="7" type="xstring" value="recharge_id"/>
+                <entry key="8" type="xstring" value="region_y"/>
+                <entry key="9" type="xstring" value="recharge_date"/>
+                <entry key="10" type="xstring" value="next_recharge_date"/>
+                <entry key="11" type="xstring" value="usage_id"/>
+                <entry key="12" type="xstring" value="complaints_count"/>
+                <entry key="13" type="xstring" value="churn"/>
+                <entry key="14" type="xstring" value="complaint_id"/>
+                <entry key="15" type="xstring" value="issue"/>
+                <entry key="16" type="xstring" value="complaint_date"/>
+                <entry key="17" type="xstring" value="severity"/>
+                <entry key="18" type="xstring" value="resolution_status"/>
+                <entry key="19" type="xstring" value="resolution_time_hours"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.9.0.v202511140634"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.9.0.v202511140634"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 150, Cols: 31"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="c2306822-e4f3-4263-a951-ae4a4e77fa73"/>
+    </config>
+</config>
